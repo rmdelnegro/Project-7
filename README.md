@@ -39,7 +39,7 @@ The editor can then post for review by the admin. When the admin previews the po
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.1
-  - [ ] GIF Walkthrough: ![]()
+  - [ ] GIF Walkthrough: ![](https://github.com/rmdelnegro/Project-7/blob/master/comment.gif)
   - [ ] Steps to recreate: log out of all accounts. As a guest on the website enter a comment with an xss alert at the top. Add at least 64kb of ‘A’ characters at the end of the command to max out the length of the comment that can be handled. The website will attempt to truncate the comment and it will be handled improperly, allowing the xss alert to be allowed. 
   - [ ] Affected source code:
     - [Link 1]( https://wpvulndb.com/vulnerabilities/7945)
