@@ -11,7 +11,7 @@ Time spent: **5** hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.13
-  - [ ] GIF Walkthrough: ![]()
+  - [ ] GIF Walkthrough: ![](https://github.com/rmdelnegro/Project-7/blob/master/youtube_xss.gif)
   - [ ] Steps to recreate: As an editor place an embedded link to a youtube url on one of the pages. Inside the link place an XSS alert. The embedded link is handled incorrectly on load, so whenever the page is accessed the alert will pop up. 
   - [ ] Affected source code:
     - [Link 1](https://wordpress.org/news/2017/03/wordpress-4-7-3-security-and-maintenance-release/)
