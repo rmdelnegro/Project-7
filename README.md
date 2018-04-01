@@ -23,7 +23,7 @@ Time spent: **8** hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.3
-  - [ ] GIF Walkthrough: ![]()
+  - [ ] GIF Walkthrough: ![](https://github.com/rmdelnegro/Project-7/blob/master/Img_xss.gif)
   - [ ] Steps to recreate: As an editor, create a new post and attempt to add code for an image in the text area. The code should contain an xss alert such as:
 	<IMG SRC=1 ONERROR=alert('XSS')/>
 The editor can then post for review by the admin. When the admin previews the post the image will throw an error and send out the alert. 
